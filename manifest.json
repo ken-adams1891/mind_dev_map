@@ -1,0 +1,8 @@
+{
+    "homepage": "https://ken-adams1891.github.io/mind_dev_map/",
+    "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "project_type": "react"
+}
