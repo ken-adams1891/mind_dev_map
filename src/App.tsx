@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { HomePage } from './pages/HomePage';
 import { WorkspacePage } from './pages/WorkspacePage';
@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen bg-background">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -42,7 +42,7 @@ function App() {
           )}
         </AnimatePresence>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
