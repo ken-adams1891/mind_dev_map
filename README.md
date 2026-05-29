@@ -56,7 +56,7 @@ project-root/
 ├── package-lock.json       # Lock file for npm dependencies
 ├── README.md              # Project documentation
 ├── README.md             # Development guide and template documentation
-├── yw_manifest.json       # Project manifest file
+├── ymanifest.json       # Project manifest file
 ├── vite.config.ts         # Vite build tool configuration
 ├── tsconfig.json          # TypeScript configuration (main)
 ├── tsconfig.app.json      # TypeScript configuration for app
